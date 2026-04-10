@@ -21,48 +21,48 @@ FoamFile
     {
         type            patch;
         nFaces          0;
-        startFace       445;
+        startFace       2365;
     }
     outlet
     {
         type            patch;
         nFaces          0;
-        startFace       445;
+        startFace       2365;
     }
     wall
     {
         type            wall;
         inGroups        1(wall);
         nFaces          0;
-        startFace       445;
+        startFace       2365;
     }
     back
     {
         type            wedge;
         inGroups        1(wedge);
-        nFaces          250;
-        startFace       445;
+        nFaces          1250;
+        startFace       2365;
     }
     front
     {
         type            wedge;
         inGroups        1(wedge);
-        nFaces          250;
-        startFace       695;
+        nFaces          1250;
+        startFace       3615;
     }
     axis
     {
         type            empty;
         inGroups        1(empty);
         nFaces          0;
-        startFace       945;
+        startFace       4865;
     }
     procBoundary1to0
     {
         type            processor;
         inGroups        1(processor);
-        nFaces          5;
-        startFace       945;
+        nFaces          10;
+        startFace       4865;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        1;
@@ -72,8 +72,8 @@ FoamFile
     {
         type            processor;
         inGroups        1(processor);
-        nFaces          5;
-        startFace       950;
+        nFaces          10;
+        startFace       4875;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        1;
@@ -83,8 +83,8 @@ FoamFile
     {
         type            processor;
         inGroups        1(processor);
-        nFaces          50;
-        startFace       955;
+        nFaces          125;
+        startFace       4885;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        1;

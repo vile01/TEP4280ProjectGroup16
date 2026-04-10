@@ -21,48 +21,48 @@ FoamFile
     {
         type            patch;
         nFaces          0;
-        startFace       445;
+        startFace       2365;
     }
     outlet
     {
         type            patch;
         nFaces          0;
-        startFace       445;
+        startFace       2365;
     }
     wall
     {
         type            wall;
         inGroups        1(wall);
-        nFaces          50;
-        startFace       445;
+        nFaces          125;
+        startFace       2365;
     }
     back
     {
         type            wedge;
         inGroups        1(wedge);
-        nFaces          250;
-        startFace       495;
+        nFaces          1250;
+        startFace       2490;
     }
     front
     {
         type            wedge;
         inGroups        1(wedge);
-        nFaces          250;
-        startFace       745;
+        nFaces          1250;
+        startFace       3740;
     }
     axis
     {
         type            empty;
         inGroups        1(empty);
         nFaces          0;
-        startFace       995;
+        startFace       4990;
     }
     procBoundary6to2
     {
         type            processor;
         inGroups        1(processor);
-        nFaces          50;
-        startFace       995;
+        nFaces          125;
+        startFace       4990;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        6;
@@ -72,8 +72,8 @@ FoamFile
     {
         type            processor;
         inGroups        1(processor);
-        nFaces          5;
-        startFace       1045;
+        nFaces          10;
+        startFace       5115;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        6;
@@ -83,8 +83,8 @@ FoamFile
     {
         type            processor;
         inGroups        1(processor);
-        nFaces          5;
-        startFace       1050;
+        nFaces          10;
+        startFace       5125;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        6;

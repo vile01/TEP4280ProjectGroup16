@@ -20,49 +20,49 @@ FoamFile
     inlet
     {
         type            patch;
-        nFaces          5;
-        startFace       445;
+        nFaces          10;
+        startFace       2365;
     }
     outlet
     {
         type            patch;
         nFaces          0;
-        startFace       450;
+        startFace       2375;
     }
     wall
     {
         type            wall;
         inGroups        1(wall);
-        nFaces          50;
-        startFace       450;
+        nFaces          125;
+        startFace       2375;
     }
     back
     {
         type            wedge;
         inGroups        1(wedge);
-        nFaces          250;
-        startFace       500;
+        nFaces          1250;
+        startFace       2500;
     }
     front
     {
         type            wedge;
         inGroups        1(wedge);
-        nFaces          250;
-        startFace       750;
+        nFaces          1250;
+        startFace       3750;
     }
     axis
     {
         type            empty;
         inGroups        1(empty);
         nFaces          0;
-        startFace       1000;
+        startFace       5000;
     }
     procBoundary4to0
     {
         type            processor;
         inGroups        1(processor);
-        nFaces          50;
-        startFace       1000;
+        nFaces          125;
+        startFace       5000;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        4;
@@ -72,8 +72,8 @@ FoamFile
     {
         type            processor;
         inGroups        1(processor);
-        nFaces          5;
-        startFace       1050;
+        nFaces          10;
+        startFace       5125;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        4;
